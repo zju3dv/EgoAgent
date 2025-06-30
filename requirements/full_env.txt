@@ -1,0 +1,191 @@
+absl-py==2.1.0
+accelerate==0.30.1
+antlr4-python3-runtime==4.9.3
+apex @ file:///home/bingxing2/ailab/scx7avx/code/apex
+asttokens==2.4.1
+attrs==24.2.0
+beautifulsoup4==4.12.3
+blinker==1.8.2
+boto3==1.34.124
+botocore==1.34.124
+cachetools==5.3.3
+certifi==2024.2.2
+cffi==1.17.1
+cfgv==3.4.0
+charset-normalizer==3.3.2
+click==8.1.7
+cloudpickle==3.1.0
+cmake==3.29.5
+cmeel==0.53.3
+cmeel-assimp==5.3.1
+cmeel-boost==1.83.0
+cmeel-console-bridge==1.0.2.2
+cmeel-octomap==1.9.8.2
+cmeel-qhull==8.0.2.1
+cmeel-tinyxml==2.6.2.3
+cmeel-urdfdom==3.1.1.1
+comm==0.2.2
+contourpy==1.2.1
+cycler==0.12.1
+Cython==3.0.11
+dart==1.0
+debugpy==1.8.1
+decorator==5.1.1
+decord==0.6.0
+dill==0.3.8
+distlib==0.3.8
+dm-env==1.6
+dm-tree==0.1.8
+dm_control==1.0.25
+-e git+https://github.com/aravindr93/dmc2gym.git@0d7581f3a4b9e065e810ce978d422921e9ee110a#egg=dmc2gym&subdirectory=../../../third_party/dmc2gym
+docker-pycreds==0.4.0
+dropout_layer_norm @ file:///home/bingxing2/ailab/scx7avx/flash-attention/csrc/layer_norm
+eigenpy==3.5.1
+einops==0.8.0
+etils==1.10.0
+exceptiongroup==1.2.1
+executing==2.0.1
+fasteners==0.19
+filelock==3.14.0
+flash_attn==2.5.9.post1
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+fonttools==4.53.0
+fsspec==2024.5.0
+fused_dense_lib @ file:///home/bingxing2/ailab/scx7avx/flash-attention/flash-attention/csrc/fused_dense_lib
+gdown==4.6.0
+gitdb==4.0.11
+GitPython==3.1.43
+glfw==2.7.0
+google-auth==2.30.0
+google-auth-oauthlib==0.4.6
+GPUtil==1.4.0
+greenlet==3.0.3
+grpcio==1.64.1
+gym==0.26.2
+gym-notices==0.0.8
+h5py==3.10.0
+-e git+https://github.com/1heart/habitat-lab.git@e95e8754e55394f128173dfecd0f8c0a28deb886#egg=habitat&subdirectory=../../../third_party/habitat-lab
+-e git+https://github.com/facebookresearch/eai-vc/@76fe35e87b1937168f1ec4b236e863451883eaf3#egg=habitat_vc&subdirectory=cortexbench/habitat_vc
+hpp-fcl==2.4.4
+huggingface-hub==0.23.3
+# Editable install with no version control (hydra-core==1.3.2)
+-e /home/bingxing2/ailab/scx7avx/soft/hydra-1.3.2
+identify==2.5.36
+idna==3.7
+imageio==2.35.1
+imageio-ffmpeg==0.5.1
+importlib_resources==6.4.5
+iniconfig==2.0.0
+ipykernel==6.26.0
+ipython==8.24.0
+itsdangerous==2.2.0
+jedi==0.19.1
+Jinja2==3.1.4
+jmespath==1.0.1
+jupyter_client==8.6.1
+jupyter_core==5.7.2
+kiwisolver==1.4.5
+labmaze==1.0.6
+lazy_loader==0.4
+lit==18.1.7
+llvmlite==0.43.0
+lxml==5.3.0
+Markdown==3.6
+MarkupSafe==2.1.5
+matplotlib==3.9.0
+matplotlib-inline==0.1.7
+-e git+https://github.com/vikashplus/mj_envs.git@c1557f5572977085f053df63f4e81f4b4e1fb17c#egg=mj_envs&subdirectory=../../../third_party/mj_envs
+-e git+https://github.com/aravindr93/mjrl.git@83d35df95eb64274c5e93bb32a0a4e2f6576638a#egg=mjrl&subdirectory=../../../third_party/mjrl
+mpmath==1.3.0
+mujoco==3.2.5
+-e git+https://github.com/aravindr93/mujoco-py.git@5f530c83a970a844bdafc3087a9f9fe7188b45d4#egg=mujoco_py&subdirectory=../../../third_party/mujoco-py
+-e git+https://github.com/facebookresearch/eai-vc/@76fe35e87b1937168f1ec4b236e863451883eaf3#egg=mujoco_vc&subdirectory=cortexbench/mujoco_vc
+multiprocess==0.70.16
+nest-asyncio==1.6.0
+networkx==3.3
+ninja==1.11.1.1
+nodeenv==1.9.1
+numba==0.60.0
+numpy==1.26.4
+numpy-quaternion==2024.0.3
+oauthlib==3.2.2
+omegaconf==2.3.0
+opencv-python==4.8.1.78
+packaging==24.0
+parso==0.8.4
+petrelbox==1.1.0
+pexpect==4.9.0
+pillow==10.3.0
+pin==2.7.0
+platformdirs==4.2.2
+pluggy==1.5.0
+pre-commit==3.7.1
+prettytable==3.10.0
+prompt-toolkit==3.0.43
+protobuf==3.20.3
+psutil==5.9.7
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pybullet==3.2.6
+pycparser==2.22
+pyecharts==2.0.5
+Pygments==2.18.0
+PyOpenGL==3.1.7
+pyparsing==3.1.2
+PySocks==1.7.1
+pytest==8.2.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.1
+pyzmq==26.0.3
+regex==2024.5.15
+requests==2.31.0
+requests-oauthlib==2.0.0
+rotary_emb @ file:///home/bingxing2/ailab/scx7avx/flash-attention/csrc/rotary
+rsa==4.9
+s3transfer==0.10.1
+safetensors==0.4.3
+scikit-image==0.24.0
+scipy==1.14.1
+sentencepiece==0.2.0
+sentry-sdk==2.18.0
+setproctitle==1.3.4
+simplejson==3.19.2
+six==1.16.0
+smmap==5.0.1
+soupsieve==2.5
+SQLAlchemy==2.0.30
+stack-data==0.6.3
+sympy==1.12
+tensorboard==2.11.2
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.6.2.2
+termcolor==2.5.0
+tifffile==2024.8.30
+timm==0.6.11
+tokenizers==0.19.1
+tomli==2.0.1
+torch @ file:///home/bingxing2/apps/package/pytorch/2.0.1%2Bcu118_cp310/torch-2.0.1%2Bcu118-cp310-cp310-linux_aarch64.whl#sha256=bfb502d507b06242e6ca9846cecc723a6cc026a417546a38eaf61818292edc51
+torch_scatter==2.1.2
+torchaudio @ file:///home/bingxing2/apps/package/pytorch/2.0.1%2Bcu118_cp310/torchaudio-2.0.2%2Bcu118-cp310-cp310-linux_aarch64.whl#sha256=0ca9b9678144d6589c1847a132015698b9569255d28b69897084522fa78789c5
+torchvision @ file:///home/bingxing2/apps/package/pytorch/2.0.1%2Bcu118_cp310/torchvision-0.15.2%2Bcu118-cp310-cp310-linux_aarch64.whl#sha256=851e8af04fca7fffe935bffae7948b4aea2fa135f71921bc677b0de71c440cda
+tornado==6.4
+tqdm==4.66.4
+traitlets==5.14.3
+transformers==4.40.1
+-e git+https://github.com/facebookresearch/eai-vc/@76fe35e87b1937168f1ec4b236e863451883eaf3#egg=trifinger&subdirectory=cortexbench/trifinger_vc
+-e git+https://github.com/ClaireLC/trifinger_simulation.git@b3629c65bc2ee338594a9d02903a9a07f9ef421b#egg=trifinger_simulation&subdirectory=../../../third_party/trifinger_simulation
+triton @ file:///home/bingxing2/ailab/scx7avx/code/petrelbox/triton-2.0.0-cp310-cp310-linux_aarch64.whl#sha256=ad35b21669c72ef5293cb32ea9f5cf5b395ebb1c2adfb3b1fee70d6e7d745de0
+typing_extensions==4.11.0
+urllib3==2.2.1
+-e git+https://github.com/facebookresearch/eai-vc/@76fe35e87b1937168f1ec4b236e863451883eaf3#egg=vc_models&subdirectory=vc_models
+virtualenv==20.26.2
+wandb==0.18.7
+wcwidth==0.2.13
+Werkzeug==3.0.3
+xentropy_cuda_lib @ file:///home/bingxing2/ailab/scx7avx/flash-attention/csrc/xentropy
+yacs==0.1.8
+zipp==3.21.0
